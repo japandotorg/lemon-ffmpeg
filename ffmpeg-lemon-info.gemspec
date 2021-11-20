@@ -1,6 +1,6 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ffmpeg_lemon_info/version'
+require 'ffmpeg_video_info/version'
 
 Gem::Specification.new do |s|
     s.name           = 'ffmpeg-lemon-info'
