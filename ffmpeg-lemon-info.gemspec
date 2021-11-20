@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
     s.authors        = ["Lemon Rose"]
     s.email          = ["yash.kul69@gmail.com"]
     s.summary        = "Ruby binding for FFmpeg library"
-    s.extensions     = ["ext/ffmpeg_video_info_ext/extconf.rn"]
+    s.extensions     = ["ext/ffmpeg_video_info_ext/extconf.rb"]
     s.homepage       = "https://github.com/japandotorg/lemon-ffmpeg"
     s.license        = "MIT"
 
