@@ -10,10 +10,10 @@ describe FFmpeg::Video do
             end
         end
         context 'with proper args' do
-            subject { OpenStruct.new(FFmpeg::Video.info('')) }
+            subject { OpenStruct.new(FFmpeg::Video.info('./spec/fixtures/test.mp4')) }
             it 'prints proper data' do
                 expect(subject.format_name).to eql 'mov,mp4,m4a,3gp,3g2,mj2'
-                expect(subject.file_name).to eql ''
+                expect(subject.file_name).to eql './spec/fixtures/test.mp4'
             end
         end
     end
